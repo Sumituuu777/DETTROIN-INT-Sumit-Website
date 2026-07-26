@@ -42,9 +42,10 @@ export default function Hero() {
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-gray-600">
 
-              At The Kalyani School, we inspire young minds to
-              discover their potential, embrace values,
-              and become the changemakers of tomorrow.
+              At The Kalyani School, we provide a harmonious
+              stimulating environment which inspires all to 
+              strive for excellence and emerge as responsible
+              future ready citizens
 
             </p>
 
