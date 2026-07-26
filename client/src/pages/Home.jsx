@@ -1,3 +1,4 @@
+import AwardsSection from "../components/AwardsSection";
 import Hero from "../components/Hero/Hero";
 import WelcomeSection from "../components/WelcomeSection/WelcomeSection";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
     <Hero/>
     <WelcomeSection/>
+    <AwardsSection/>
     </>
   );
 }
