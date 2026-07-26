@@ -5,20 +5,20 @@ const leftAwards = [
     icon: "https://thekalyanischool.com/web-assets/images/award_icon1.webp",
     title: "QS I-GAUGE",
     description:
-      "The Kalyani School has achieved a DIAMOND+ level in the QS I-GAUGE rating for Indian schools.",
+      "The Kalyani School has achieved a DIAMOND + level in the QS I-GAUGE rating for Indian schools.",
   },
   {
     icon: "https://thekalyanischool.com/web-assets/images/award_icon2.webp",
     title: "Education World: C-Fore Rankings",
     description:
-      "C-Fore ranked The Kalyani School 1st in Pune amongst all CBSE schools following the National Curriculum.",
+      "C-Fore, who were earlier evaluating the Education World, has ranked The Kalyani School 1st in Pune amongst all the CBSE schools for following the National Curriculum.",
   },
   {
-    icon: "https://thekalyanischool.com/web-assets/images/award_icon3.webp",
-    title: "National Green School Rankings",
+    icon: "https://thekalyanischool.com/web-assets/images/award_icon5.webp",
+    title: "IC3 Institute",
     description:
-      "The Kalyani School received the Platinum Category of The Climate Project Foundation's Green Campus Programme Award 2025.",
-  },
+      "The Kalyani School has been awarded the accreditation level Grade A+ accredited by the IC3 Institute",
+  }
 ];
 
 const rightAwards = [
@@ -26,19 +26,19 @@ const rightAwards = [
     icon: "https://thekalyanischool.com/web-assets/images/award_icon4.webp",
     title: "Education World India School Rankings",
     description:
-      "Ranked 1st in Pune & 6th in Maharashtra under the CO-ED Day Schools Category.",
+      "TKS ranked 1st in Pune & 6th in Maharashtra – under the CO-ED Day Schools Category by Education World India School Rankings 2023-24",
   },
   {
-    icon: "https://thekalyanischool.com/web-assets/images/award_icon5.webp",
-    title: "IC3 Institute",
+    icon: "https://thekalyanischool.com/web-assets/images/award_icon3.webp",
+    title: "National Green School Rankings",
     description:
-      "The Kalyani School has been awarded Grade A+ Accreditation by the IC3 Institute.",
-  },
+      "The Kalyani School, Pune, Maharashtra, has been honoured with the Platinum Category of The Climate Project Foundation’s Green Campus Programme Award in 2025. This prestigious recognition aligns with UNESCO's global initiatives to promote sustainable and climate-friendly educational environments.",
+  }
 ];
 
 export default function AwardsSection() {
   return (
-    <section id="awards" className="py-24 bg-[#F8FBF8]">
+    <section id="awards" className="py-24 bg-[#f3f5f9] mb-0">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
         {/* Heading */}
@@ -91,7 +91,7 @@ export default function AwardsSection() {
             <img
               src={centerImage}
               alt="Awards"
-              className="max-h-[380px] object-contain"
+              className="max-h-95 object-contain"
             />
           </div>
 

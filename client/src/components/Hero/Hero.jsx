@@ -14,13 +14,13 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,#EAF7EE,transparent_45%)]" />
 
-      <div className="relative max-w-[1500px] mx-auto px-6 lg:px-10">
+      <div className="relative max-w-375 mx-auto px-6 lg:px-10">
 
         <div className="grid lg:grid-cols-2 items-center gap-16 min-h-[88vh]">
 
           {/* ================= LEFT ================= */}
 
-          <div className="relative z-10">
+          <div className="relative z-10 mt-10">
 
             <span className="inline-flex items-center rounded-full bg-green-100 text-[#0B7A4A] px-4 py-2 text-sm font-semibold tracking-wide">
               CBSE Senior Secondary School • Pune
@@ -53,33 +53,6 @@ export default function Hero() {
               <HeroButtons />
             </div>
 
-            {/* Trust Points */}
-
-            <div className="mt-10 flex flex-wrap gap-6">
-
-              {[
-                "Holistic Learning",
-                "Future Ready",
-                "Strong Values",
-              ].map((item) => (
-
-                <div
-                  key={item}
-                  className="flex items-center gap-2"
-                >
-
-                  <div className="h-2.5 w-2.5 rounded-full bg-[#A8D53B]" />
-
-                  <span className="text-gray-700 font-medium">
-                    {item}
-                  </span>
-
-                </div>
-
-              ))}
-
-            </div>
-
           </div>
 
           {/* ================= RIGHT ================= */}
@@ -95,7 +68,7 @@ export default function Hero() {
             <img
               src={campus}
               alt="The Kalyani School"
-              className="relative z-10 rounded-[36px] shadow-2xl object-cover w-full h-[650px]"
+              className="relative z-10 rounded-[36px] shadow-2xl object-cover w-full h-162.5"
             />
 
             {/* Floating Cards */}
@@ -114,7 +87,7 @@ export default function Hero() {
 
       {/* Scroll Indicator */}
 
-      <div className="hidden lg:flex justify-center mt-10 pb-8">
+      <div className="hidden lg:flex justify-center mt-2 pb-8">
 
         <button className="group flex flex-col items-center text-gray-500">
 

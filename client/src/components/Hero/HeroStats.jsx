@@ -38,7 +38,7 @@ const stats = [
 
 export default function HeroStats() {
   return (
-    <section className="relative -mt-10 z-30 pb-20">
+    <section className="relative mt-10 z-30 pb-20">
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
 

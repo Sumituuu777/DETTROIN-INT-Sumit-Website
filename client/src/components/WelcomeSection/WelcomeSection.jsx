@@ -17,7 +17,7 @@ export default function WelcomeSection() {
 
       <div className="absolute -bottom-24 -right-20 h-72 w-72 rounded-full bg-lime-100/40 blur-3xl" />
 
-      <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
+      <div className="relative max-w-350 mx-auto px-6 lg:px-10">
 
         {/* Heading */}
 
@@ -51,7 +51,7 @@ export default function WelcomeSection() {
 
           <div className="relative group mt-30">
 
-            <div className="overflow-hidden rounded-[32px] shadow-2xl">
+            <div className="overflow-hidden rounded-4xl shadow-2xl">
 
               <video
                 src={campusVideo}
@@ -182,8 +182,8 @@ export default function WelcomeSection() {
 
               <div className="mt-2">
 
-                <div className="flex flex-1 min-w-[180px] h-20 items-center gap-4 rounded-2xl bg-[#F9FBFA] p-4">
-                    <img src={sponsor2} alt="sponsor" className="h-17 min-w-[180px]"/>
+                <div className="flex flex-1 min-w-45 h-20 items-center gap-4 rounded-2xl bg-[#F9FBFA] p-4">
+                    <img src={sponsor2} alt="sponsor" className="h-17 min-w-45"/>
                 </div>
 
               </div>
