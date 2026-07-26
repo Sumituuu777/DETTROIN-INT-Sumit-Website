@@ -1,3 +1,4 @@
+import AluminiMini from "../components/AluminiMini";
 import AwardsSection from "../components/AwardsSection";
 import Hero from "../components/Hero/Hero";
 import MissionSection from "../components/MissionSection";
@@ -10,6 +11,7 @@ export default function Home() {
     <WelcomeSection/>
     <AwardsSection/>
     <MissionSection/>
+    <AluminiMini/>
     </>
   );
 }
