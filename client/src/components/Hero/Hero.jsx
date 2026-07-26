@@ -1,5 +1,5 @@
 import HeroButtons from "./HeroButtons";
-// import HeroStats from "./HeroStats";
+import HeroStats from "./HeroStats";
 import FloatingCards from "./FloatingCards";
 
 import campus from "../../assets/campus.webp";
@@ -8,7 +8,7 @@ import { HiArrowDown } from "react-icons/hi";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[#FAFBF8] pt-24 lg:pt-32">
+    <section className="relative overflow-hidden bg-[#FAFBF8] pt-5 lg:pt-7">
 
       {/* Background Gradient */}
 
@@ -107,7 +107,7 @@ export default function Hero() {
 
         {/* Bottom Stats */}
 
-        {/* <HeroStats /> */}
+        <HeroStats />
 
       </div>
 

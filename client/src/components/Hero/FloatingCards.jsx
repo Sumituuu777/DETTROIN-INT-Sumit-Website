@@ -1,4 +1,5 @@
 import { HiArrowRight } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 import {
   HiAcademicCap,
   HiUsers,
@@ -33,7 +34,7 @@ export default function FloatingCards() {
           className="group mt-5 flex items-center gap-2
           text-[#0B7A4A] font-semibold"
         >
-          Apply Now
+          <Link to="/admissions">Apply Now</Link>
 
           <HiArrowRight
             className="transition-transform
