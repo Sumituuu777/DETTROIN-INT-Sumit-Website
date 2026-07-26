@@ -2,10 +2,12 @@ import { HiArrowRight, HiPlay } from "react-icons/hi2";
 import sponsor1 from "../../assets/grey_kalyani_logo.webp"
 import sponsor2 from "../../assets/grey_shri_logo.webp"
 import campusVideo from "../../assets/campusVideo.mp4";
+import { useState } from "react";
 // Optional poster image
 // import poster from "../../assets/images/welcome-thumbnail.jpg";
 
 export default function WelcomeSection() {
+  const [shouldAutoPlay, setShouldAutoPlay] = useState(true);
   return (
     <section className="relative py-15 bg-white overflow-hidden">
 
@@ -55,6 +57,9 @@ export default function WelcomeSection() {
                 src={campusVideo}
                 controls
                 playsInline
+                autoPlay={shouldAutoPlay}
+                onPlay={() => setShouldAutoPlay(false)}
+                muted
                 className="w-full object-cover"
 
                 // poster={poster}
