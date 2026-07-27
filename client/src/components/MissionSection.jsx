@@ -47,18 +47,19 @@ export default function MissionSection() {
                                 return (
                                     <div
                                         key={index}
-                                        className="
+                                        className={`
                                             group
                                             w-50
                                             min-h-52.5
                                             rounded-2xl
                                             p-5
-                                            border border-transparent
+                                            border
                                             transition-all duration-300
                                             hover:bg-white/12
                                             hover:backdrop-blur-md
-                                            hover:border-white/20
-                                        "
+                                            border-white/20
+                                            ${card.title==="Mission, Vision & Core Values" && "bg-white/12 backdrop-blur-md"}
+                                        `}
                                     >
                                         <Icon className="text-white text-3xl mb-4" />
 
@@ -67,7 +68,7 @@ export default function MissionSection() {
                                         </h3>
 
                                         <button
-                                            className="
+                                            className={`
                                                 mt-4
                                                 -mb-6
                                                 px-5
@@ -82,7 +83,8 @@ export default function MissionSection() {
                                                 duration-300
                                                 cursor-pointer
                                                 group-hover:opacity-100
-                                            "
+                                                ${card.title==="Mission, Vision & Core Values" && "opacity-100"}
+                                            `}
                                         >
                                             Read More →
                                         </button>
