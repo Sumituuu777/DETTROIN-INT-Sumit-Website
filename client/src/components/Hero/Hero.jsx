@@ -1,6 +1,5 @@
 import HeroButtons from "./HeroButtons";
 import HeroStats from "./HeroStats";
-import FloatingCards from "./FloatingCards";
 
 import campus from "../../assets/campus.webp";
 
@@ -8,103 +7,62 @@ import { HiArrowDown } from "react-icons/hi";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[#FAFBF8] pt-5 lg:pt-7">
+    <>
+      {/* ================= HERO ================= */}
+      <section className="relative overflow-hidden h-[80vh]">
 
-      {/* Background Gradient */}
+        {/* Background Image */}
+        <img
+          src={campus}
+          alt="The Kalyani School"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.95)_0%,rgba(255,255,255,0.95)_38%,rgba(255,255,255,0.75)_48%,rgba(255,255,255,0.35)_58%,rgba(255,255,255,0)_70%)]" />
 
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,#EAF7EE,transparent_45%)]" />
+        {/* Hero Content */}
+        <div className="relative z-10 flex items-center h-full">
 
-      <div className="relative max-w-375 mx-auto px-6 lg:px-10">
+          <div className="max-w-375 mx-auto w-full px-2 lg:px-10">
 
-        <div className="grid lg:grid-cols-2 items-center gap-16 min-h-[88vh]">
+            <div className="max-w-2xl">
 
-          {/* ================= LEFT ================= */}
+              <h1 className="mt-5 text-3xl md:text-6xl xl:text-6xl font-semibold leading-tight">
 
-          <div className="relative z-10 mt-10">
+                <span className="text-[#0B7A4A]">
+                  Nurturing Today.
+                </span>
 
-            <span className="inline-flex items-center rounded-full bg-green-100 text-[#0B7A4A] px-4 py-2 text-sm font-semibold tracking-wide">
-              CBSE Senior Secondary School • Pune
-            </span>
+                <br />
 
-            <h1 className="mt-8 text-5xl md:text-6xl xl:text-7xl font-bold leading-tight">
+                <span className="text-gray-900">
+                  Empowering Tomorrow.
+                </span>
 
-              <span className="text-[#0B7A4A]">
-                Nurturing Today.
-              </span>
+              </h1>
 
-              <br />
+              <p className="mt-8 max-w-xl text-lg leading-8 text-gray-800">
 
-              <span className="text-gray-900">
-                Empowering Tomorrow.
-              </span>
+                At The Kalyani School, we provide a harmonious
+                stimulating environment which inspires all to
+                strive for excellence and emerge as responsible
+                future-ready citizens.
 
-            </h1>
+              </p>
 
-            <p className="mt-8 max-w-xl text-lg leading-8 text-gray-600">
+              <div className="mt-5">
+                <HeroButtons />
+              </div>
 
-              At The Kalyani School, we provide a harmonious
-              stimulating environment which inspires all to 
-              strive for excellence and emerge as responsible
-              future ready citizens
-
-            </p>
-
-            <div className="mt-10">
-              <HeroButtons />
             </div>
-
-          </div>
-
-          {/* ================= RIGHT ================= */}
-
-          <div className="relative">
-
-            {/* Decorative Circle */}
-
-            <div className="absolute -left-16 top-20 h-72 w-72 rounded-full bg-green-100 blur-3xl opacity-50" />
-
-            {/* Main Image */}
-
-            <img
-              src={campus}
-              alt="The Kalyani School"
-              className="relative z-10 rounded-[36px] shadow-2xl object-cover w-full h-162.5"
-            />
-
-            {/* Floating Cards */}
-
-            <FloatingCards />
 
           </div>
 
         </div>
 
-        {/* Bottom Stats */}
+      </section>
 
-        <HeroStats />
-
-      </div>
-
-      {/* Scroll Indicator */}
-
-      <div className="hidden lg:flex justify-center mt-2 pb-8">
-
-        <button className="group flex flex-col items-center text-gray-500">
-
-          <span className="text-sm font-medium">
-
-            Scroll to Explore
-
-          </span>
-
-          <HiArrowDown
-            className="mt-2 text-2xl animate-bounce group-hover:text-[#0B7A4A]"
-          />
-
-        </button>
-
-      </div>
-
-    </section>
+      {/* ================= STATS ================= */}
+      <HeroStats />
+    </>
   );
 }

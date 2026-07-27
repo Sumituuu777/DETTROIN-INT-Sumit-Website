@@ -9,7 +9,7 @@ export default function HeroButtons() {
       <button
         className="group flex items-center justify-center gap-2
         rounded-full bg-[#0B7A4A]
-        px-8 py-4
+        px-4 py-2
         text-white
         font-semibold
         shadow-lg shadow-green-200/60
@@ -35,7 +35,7 @@ export default function HeroButtons() {
         border border-gray-200
         bg-white/80
         backdrop-blur-md
-        px-8 py-4
+        px-4 py-2
         font-semibold
         text-gray-700
         shadow-md
