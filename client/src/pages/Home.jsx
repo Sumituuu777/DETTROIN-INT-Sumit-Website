@@ -1,4 +1,3 @@
-import Footer from "../components/footer";
 import AluminiMini from "../components/Homepage/AluminiMini";
 import AwardsSection from "../components/Homepage/AwardsSection";
 import Hero from "../components/Homepage/Hero/Hero";
@@ -15,12 +14,12 @@ export default function Home() {
     <WelcomeSection/>
     <AwardsSection/>
     <MissionSection/>
+    <hr className="text-gray-300 mb-10"/>
     <AluminiMini/>
     <hr className="text-gray-300 mt-10"/>
     <Recents/>
     <LatestUpdates/>
     <NewsletterSection/>
-    <Footer/>
     </>
   );
 }

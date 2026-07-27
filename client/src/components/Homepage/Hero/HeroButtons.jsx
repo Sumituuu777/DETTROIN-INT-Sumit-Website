@@ -45,7 +45,7 @@ export default function HeroButtons() {
         hover:text-[#0B7A4A]
         hover:shadow-lg"
       >
-        <Link to="/contact">Book a Campus Tour</Link>
+        <Link to="/contact">Contact Us</Link>
 
         <HiArrowRight
           className="transition-transform duration-300

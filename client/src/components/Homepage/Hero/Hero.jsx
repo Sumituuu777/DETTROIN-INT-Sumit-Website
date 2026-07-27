@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.95)_0%,rgba(255,255,255,0.95)_38%,rgba(255,255,255,0.75)_48%,rgba(255,255,255,0.35)_58%,rgba(255,255,255,0)_70%)]" />
 
         {/* Hero Content */}
-        <div className="relative z-10 flex items-start h-full pt-20">
+        <div className="relative z-10 flex items-start h-full pt-28 sm:pt-32 lg:pt-20">
 
           <div className="max-w-375 mx-auto w-full px-2 lg:px-10">
 
@@ -49,7 +49,7 @@ export default function Hero() {
 
               </p>
 
-              <div className="mt-5">
+              <div className="mt-6 lg:mt-5">
                 <HeroButtons />
               </div>
 

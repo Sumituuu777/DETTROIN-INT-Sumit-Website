@@ -13,6 +13,7 @@ import Alumni from "./pages/Alumni";
 import Career from "./pages/Career";
 
 import { Routes, Route, Navigate } from "react-router-dom";
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -44,6 +45,8 @@ function App() {
           
         </Routes>
       </div>
+
+      <Footer/>
     </>
   );
 }

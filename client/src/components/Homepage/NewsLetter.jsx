@@ -3,7 +3,7 @@ import newsletterBoy from "../../assets/newsletter_boy.webp";
 
 const NewsletterSection = () => {
   return (
-    <section className="py-20 bg-[#F8FAF8]">
+    <section className="pt-20 bg-[#F8FAF8] pb-30">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="relative overflow-hidden rounded-[40px] bg-gradient-to-r from-[#0B7A4A] via-[#16A34A] to-[#81c415] shadow-[0_30px_80px_rgba(124,58,237,0.15)]">
