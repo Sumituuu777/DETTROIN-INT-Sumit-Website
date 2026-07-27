@@ -7,7 +7,7 @@
 | **Email Address** | sumit.ydv.kumar2006@gmail.com |
 | **GitHub Username** | sumituuu777 |
 | **Selected Website** | https://www.thekalyanischool.com/ |
-| **Live Demo** | https://yourappon.vercel.app |
+| **Live Demo** | https://dettroin-int-sumit-website.vercel.app/ |
 | **Tech Stack** | React, Tailwind CSS, React Icons |
 
 ---
