@@ -1,7 +1,7 @@
 import HeroButtons from "./HeroButtons";
 import HeroStats from "./HeroStats";
 
-import campus from "../../assets/campus.webp";
+import campus from "../../../assets/campus.webp";
 
 import { HiArrowDown } from "react-icons/hi";
 

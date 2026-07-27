@@ -1,4 +1,4 @@
-import centerImage from "../assets/award_center.webp";
+import centerImage from "../../assets/award_center.webp";
 
 const leftAwards = [
   {
