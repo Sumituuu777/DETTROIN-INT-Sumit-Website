@@ -3,37 +3,37 @@ import { BsInstagram } from "react-icons/bs";
 
 const posts = [
   {
-    image: "/images/update1.webp",
+    image: "/images/updates/update1.png",
     title: "Science Exhibition 2026",
     date: "12 July 2026",
     desc: "Students showcased innovative scientific models and research projects.",
   },
   {
-    image: "/images/update2.webp",
+    image: "/images/updates/update2.png",
     title: "Sports Championship",
     date: "9 July 2026",
     desc: "Our students secured multiple medals across various sporting events.",
   },
   {
-    image: "/images/update3.webp",
+    image: "/images/updates/update3.png",
     title: "Annual Cultural Fest",
     date: "5 July 2026",
     desc: "Music, dance and drama performances celebrating creativity.",
   },
   {
-    image: "/images/update4.webp",
+    image: "/images/updates/update4.png",
     title: "Tree Plantation Drive",
     date: "1 July 2026",
     desc: "Students planted hundreds of saplings promoting sustainability.",
   },
   {
-    image: "/images/update5.webp",
+    image: "/images/updates/update5.png",
     title: "Investiture Ceremony",
     date: "28 June 2026",
     desc: "The newly elected student council took the oath of leadership.",
   },
   {
-    image: "/images/update6.webp",
+    image: "/images/updates/update6.png",
     title: "Robotics Workshop",
     date: "22 June 2026",
     desc: "Students explored AI, robotics and automation through hands-on learning.",
@@ -44,7 +44,7 @@ export default function LatestUpdates() {
   const scrollingPosts = [...posts, ...posts];
 
   return (
-    <section className="py-15 bg-[#F8FAF8] overflow-hidden mb-10">
+    <section className="py-15 bg-[#F8FAF8] overflow-hidden">
 
       <div className="max-w-375 mx-auto px-6 lg:px-10">
 
@@ -65,7 +65,7 @@ export default function LatestUpdates() {
 
       {/* Marquee */}
 
-      <div className="overflow-hidden">
+      <div className="overflow-hidden pb-10">
 
         <div className="marquee-track flex gap-8 w-max hover:[animation-play-state:paused]">
 
